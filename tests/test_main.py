@@ -1,5 +1,5 @@
 import numpy as np
-from main import tsne, momentum_func
+from simple_tsne import tsne, momentum_func
 from sklearn.datasets import load_digits
 
 
