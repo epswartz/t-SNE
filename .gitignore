@@ -1,1 +1,9 @@
 .ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+simple_tsne/__pycache__
+
+# Packaging
+simple_tsne.egg-info
+dist
+build
+MANIFEST
