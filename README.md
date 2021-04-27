@@ -28,10 +28,10 @@ low_dim = tsne(
     momentum_fn=momentum_func, # Function returning momentum coefficient, this one is the default update schedule
     pbar=True, # Show progress bar
     random_state=42 # Seed for random initialization
-    
+)
+
 # Plot results
 plt.figure()
 plt.scatter(low_dim[:,0], low_dim[:,1], c=digit_class)
 plt.show()
-)
 ```
