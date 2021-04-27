@@ -5,7 +5,7 @@ A python package and analysis of the t-SNE dimensionality reduction technique.
 # Installation
 You can install the package from pip:
 
-`pip install simple-tsne`
+`pip install simple_tsne`
 
 # Usage
 
@@ -14,7 +14,7 @@ The core functionality of the package lives in the `tsne` function.
 The following example runs tsne on the MNIST dataset:
 
 ```python
-from simple-tsne import tsne, momentum_func
+from simple_tsne import tsne, momentum_func
 from sklearn.datasets import load_digits
 import matplotlib.pyplot as plt
 
